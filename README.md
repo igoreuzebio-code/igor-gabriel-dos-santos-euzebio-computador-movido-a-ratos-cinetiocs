@@ -60,19 +60,19 @@ graph LR;
   "features": [
     {
       "type": "Feature",
-      "id": "Estudo",
+      "id": "UK-Target",
       "properties": {
-        "Objetivo": "Meu Lab de Programação"
+        "Objetivo": "Carreira Internacional em TI"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-45, -20],
-            [-45, -25],
-            [-40, -25],
-            [-40, -20],
-            [-45, -20]
+            [-2.5, 51.0],
+            [-2.5, 54.0],
+            [0.5, 54.0],
+            [0.5, 51.0],
+            [-2.5, 51.0]
           ]
         ]
       }
