@@ -1,41 +1,38 @@
-# 🐙 Formatações avançadas
+# 🚀 Meu Início no Desenvolvimento Web
 
-## Alertas
+## 
 
-Alertas são uma extensão Markdown baseada na sintaxe blockquote que você pode usar para enfatizar informações críticas. Eles são exibidos com cores e ícones distintos para indicar a importância do conteúdo.
+💡 Status do Aprendizado
+Alertas sobre a minha jornada técnica e o que estou encarando nesse começo de carreira no 1 ano info.
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Estou focado em aprender a estrutura base da web: HTML, CSS e um pouco de lógica.
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> Qualquer coisa aqui sla.
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> O 9º ano é o momento ideal para construir meu portfólio e já sair na frente no Ensino Médio Técnico.
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> nao sei nada ainda, mas ainda sei usar o github ahahaha 
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> Ctrl+s
 
-## Seção recolhida
+## Clique para ver as tecnologias que estou estudando
 
-Você pode recolher temporariamente seções do seu Markdown criando uma seção expandida que o leitor pode optar por expandir. Por exemplo, quando você deseja incluir detalhes técnicos em um comentário do problema que pode não ser relevante ou interessante para todos os leitores, você pode colocar esses detalhes em uma seção recolhida.
-
-Qualquer Markdown dentro do bloco `<details>` estará recolhido até que o leitor clique em para expandir os detalhes.
-
-No bloco `<details>`, use a marca `<summary>` para que os leitores saibam o que está dentro dele. O rótulo aparece à direita de .
+Html e Visual studio B)
 
 <details>
 
-<summary>Tips for collapsed sections</summary>
+<summary>  wow </summary>
 
-### You can add a header
+### titulo
 
-You can add text within a collapsed section.
+texto 1
 
-You can add an image or a code block, too.
+texto 2
 
 ```ruby
    puts "Hello World"
@@ -43,27 +40,19 @@ You can add an image or a code block, too.
 
 </details>
 
-## Diagramas do Mermaid
+### 📊 fluxus
 
-O Mermaid é uma ferramenta inspirada em Markdown que transforma texto em diagramas. Por exemplo, o Mermaid pode interpretar gráficos de fluxo, diagramas de sequência, gráficos de pizza e muito mais.
-
-Para criar um diagrama do Mermaid, adicione a sintaxe do Mermaid dentro de um bloco de código isolado com o identificador de linguagem mermaid. 
-
-Por exemplo, você pode criar um fluxograma especificando valores e setas.
-
-Here is a simple flow chart:
+Este é o caminho que desenhei para o meu aprendizado em TI este ano:
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+graph LR;
+    A[9º Ano / TI] --> B[Lógica de Programação];
+    B --> C[HTML & CSS];
+    C --> D[Primeiro Web Site];
+    D --> E[JavaScript no Futuro];
 ```
 
-## Mapas
-
-É possível usar a sintaxe GeoJSON ou TopoJSON para criar mapas interativos. Para criar um mapa, adicione GeoJSON ou TopoJSON em um bloco de código protegido com o identificador de sintaxe geojson ou topojson. 
+## 📍 Onde pretendo chegar
 
 ```geojson
 {
@@ -71,38 +60,24 @@ graph TD;
   "features": [
     {
       "type": "Feature",
-      "id": 1,
+      "id": "Estudo",
       "properties": {
-        "ID": 0
+        "Objetivo": "Meu Lab de Programação"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -90,
-              35
-            ],
-            [
-              -90,
-              30
-            ],
-            [
-              -85,
-              30
-            ],
-            [
-              -85,
-              35
-            ],
-            [
-              -90,
-              35
-            ]
+            [-45, -20],
+            [-45, -25],
+            [-40, -25],
+            [-40, -20],
+            [-45, -20]
           ]
         ]
       }
     }
   ]
 }
+
 ```
